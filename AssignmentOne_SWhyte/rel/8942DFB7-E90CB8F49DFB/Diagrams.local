@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="DEC75770-BFF6-5D4B-B7C6-C5AC95744DD7" name="MSIS-DATA-MGMT" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

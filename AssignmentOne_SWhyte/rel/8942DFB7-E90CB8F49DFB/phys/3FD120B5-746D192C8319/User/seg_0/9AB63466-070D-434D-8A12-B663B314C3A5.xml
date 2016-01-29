@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="COMMON" directorySegmentName="seg_0" id="9AB63466-070D-434D-8A12-B663B314C3A5">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjName>COMMON</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<schemaObject>990E6CE4-7A70-2558-8658-252FB1B4B6DA</schemaObject>
+</UserOraclev10g>

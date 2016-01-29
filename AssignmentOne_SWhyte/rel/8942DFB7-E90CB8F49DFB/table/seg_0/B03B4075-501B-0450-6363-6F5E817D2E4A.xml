@@ -1,0 +1,219 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B03B4075-501B-0450-6363-6F5E817D2E4A" schemaObject="990E6CE4-7A70-2558-8658-252FB1B4B6DA" name="OFFERING">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>OFFERING</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFFERNO" id="43C7F1B9-1856-61A1-940F-BB594E84E541">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>OFFERING</sourceObjSchema>
+<sourceObjName>OFFERNO</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COURSENO" id="A2CE30C6-0C7C-57F3-6ACF-CF8E216AB801">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>OFFERING</sourceObjSchema>
+<sourceObjName>COURSENO</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84C20C14-C3BE-42A4-4F5D-A8B6C0168273" referredColumn="EA8D25B3-BB90-D809-128D-706CBE3104CA"/>
+</associations>
+</Column>
+<Column name="OFFTERM" id="F78DAD8A-8C3C-5260-3294-DA7C74B05279">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>OFFERING</sourceObjSchema>
+<sourceObjName>OFFTERM</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFYEAR" id="78D7AC2B-8DCA-C575-8A45-5CBF0379389D">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>OFFERING</sourceObjSchema>
+<sourceObjName>OFFYEAR</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFLOCATION" id="6E845DC2-71F1-FB9D-DB2A-7051E60CE083">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>OFFERING</sourceObjSchema>
+<sourceObjName>OFFLOCATION</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFTIME" id="8A87CB2B-98FC-1164-7961-E91A0B89D962">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>OFFERING</sourceObjSchema>
+<sourceObjName>OFFTIME</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACNO" id="080D7E4F-D1CB-1F69-4933-22B0D3779CB4">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>OFFERING</sourceObjSchema>
+<sourceObjName>FACNO</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BFBD6E3-449C-1FE6-29A6-BCF51EC79B60" referredColumn="6145D84F-ECFB-4764-8B13-AED138009676"/>
+</associations>
+</Column>
+<Column name="OFFDAYS" id="720E631C-0A9F-4D72-E0B3-540780BACCE0">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>OFFERING</sourceObjSchema>
+<sourceObjName>OFFDAYS</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFLIMIT" id="CB9447C0-5C48-8C48-4E26-1697A0397BD0">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>OFFERING</sourceObjSchema>
+<sourceObjName>OFFLIMIT</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFNUMENROLLED" id="BD6284AA-F1D3-D5B6-247B-9986E9938F23">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>OFFERING</sourceObjSchema>
+<sourceObjName>OFFNUMENROLLED</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3389D478-B303-782A-12B0-D05C3F41A673" name="OFFERINGPK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>OFFERINGPK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:40 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C7F1B9-1856-61A1-940F-BB594E84E541"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A952BDF3-FB26-AB16-E119-7732D1F90C7F" schemaObject="990E6CE4-7A70-2558-8658-252FB1B4B6DA" name="OFFERINGPK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>OFFERINGPK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C7F1B9-1856-61A1-940F-BB594E84E541"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="833AD22F-9185-0323-30A1-410FFB7CA363" name="COURSEFK">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2CE30C6-0C7C-57F3-6ACF-CF8E216AB801"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BD4DC42-D866-7AF0-46C0-0352351DFDF8" name="FACULTYFK">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="080D7E4F-D1CB-1F69-4933-22B0D3779CB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

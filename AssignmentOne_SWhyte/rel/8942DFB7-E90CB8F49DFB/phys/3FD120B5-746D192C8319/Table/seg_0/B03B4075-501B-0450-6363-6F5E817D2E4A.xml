@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="OFFERING" directorySegmentName="seg_0" id="B03B4075-501B-0450-6363-6F5E817D2E4A">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<schemaObject>990E6CE4-7A70-2558-8658-252FB1B4B6DA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1F684CD0-CBC5-DD02-3CB8-6E177F97E041</segment>
+<tableSpace>84DA9745-2778-299D-1A51-B9E2530D0283</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FACNO" id="080D7E4F-D1CB-1F69-4933-22B0D3779CB4">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFFERNO" id="43C7F1B9-1856-61A1-940F-BB594E84E541">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFFLOCATION" id="6E845DC2-71F1-FB9D-DB2A-7051E60CE083">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFFDAYS" id="720E631C-0A9F-4D72-E0B3-540780BACCE0">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFFYEAR" id="78D7AC2B-8DCA-C575-8A45-5CBF0379389D">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFFTIME" id="8A87CB2B-98FC-1164-7961-E91A0B89D962">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COURSENO" id="A2CE30C6-0C7C-57F3-6ACF-CF8E216AB801">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFFNUMENROLLED" id="BD6284AA-F1D3-D5B6-247B-9986E9938F23">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFFLIMIT" id="CB9447C0-5C48-8C48-4E26-1697A0397BD0">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFFTERM" id="F78DAD8A-8C3C-5260-3294-DA7C74B05279">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="OFFERINGPK" id="A952BDF3-FB26-AB16-E119-7732D1F90C7F">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<schemaObject>990E6CE4-7A70-2558-8658-252FB1B4B6DA</schemaObject>
+<segment>E399DA18-B210-4D69-31BE-74E7395EC59A</segment>
+<tableSpace>84DA9745-2778-299D-1A51-B9E2530D0283</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACULTYFK" id="1BD4DC42-D866-7AF0-46C0-0352351DFDF8">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COURSEFK" id="833AD22F-9185-0323-30A1-410FFB7CA363">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="OFFERINGPK" id="3389D478-B303-782A-12B0-D05C3F41A673">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:40 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<segment>E399DA18-B210-4D69-31BE-74E7395EC59A</segment>
+<tableSpace>84DA9745-2778-299D-1A51-B9E2530D0283</tableSpace>
+<existingIndex>A952BDF3-FB26-AB16-E119-7732D1F90C7F</existingIndex>
+<indexSegment>E399DA18-B210-4D69-31BE-74E7395EC59A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

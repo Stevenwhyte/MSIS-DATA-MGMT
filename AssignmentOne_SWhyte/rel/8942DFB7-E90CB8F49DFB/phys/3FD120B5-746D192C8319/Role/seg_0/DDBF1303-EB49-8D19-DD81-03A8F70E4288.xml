@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="STUDENT" directorySegmentName="seg_0" id="DDBF1303-EB49-8D19-DD81-03A8F70E4288">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjName>STUDENT</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="74EF13E9-B36F-D33F-4119-38E208A09595">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>651FA58A-0221-19BA-ADBF-1A01BD99F2E7</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="61AEF41E-66F3-203D-B8B6-D063C38F10C6">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>811DAF96-6AA9-791E-0502-215D61821D2A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="29636B21-736A-5AA8-CF41-A5AB0DB6CB74">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>E67A9A07-4832-AB8A-AD52-27C211F5B596</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions4" id="490FAC4D-01DA-432D-07A2-4885833FF5CD">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>B03B4075-501B-0450-6363-6F5E817D2E4A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions6" id="7CE9F017-896E-B7A3-2781-295DAA6DA6D4">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>43F57804-5662-887B-818A-DA6843E9DB5E</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

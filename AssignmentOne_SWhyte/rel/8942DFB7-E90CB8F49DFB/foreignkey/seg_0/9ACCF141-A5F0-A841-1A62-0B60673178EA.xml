@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9ACCF141-A5F0-A841-1A62-0B60673178EA" containerWithKeyObject="811DAF96-6AA9-791E-0502-215D61821D2A" localFKIndex="B7004A9F-6359-3048-BBD7-ECA2C01A3C14" name="STUDENTFK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>STUDENTFK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>43F57804-5662-887B-818A-DA6843E9DB5E</referredTableID>
+<keyObject>5665BDB9-EE8C-1368-AF37-A840106C0121</keyObject>
+<referredKeyID>5665BDB9-EE8C-1368-AF37-A840106C0121</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

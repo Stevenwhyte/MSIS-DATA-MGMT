@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="811DAF96-6AA9-791E-0502-215D61821D2A" schemaObject="990E6CE4-7A70-2558-8658-252FB1B4B6DA" name="ENROLLMENT">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>ENROLLMENT</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFFERNO" id="4158C8AD-0BE0-F360-DEA6-83808AE8B52D">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>ENROLLMENT</sourceObjSchema>
+<sourceObjName>OFFERNO</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7487912-D61B-3282-F3F4-67A1F1D4E51D" referredColumn="43C7F1B9-1856-61A1-940F-BB594E84E541"/>
+</associations>
+</Column>
+<Column name="STDNO" id="2B0DDF21-308E-7433-D0B4-1A081594ED0F">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>ENROLLMENT</sourceObjSchema>
+<sourceObjName>STDNO</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ACCF141-A5F0-A841-1A62-0B60673178EA" referredColumn="2704BAD2-CD02-D70E-902E-B8BE02FDCA2A"/>
+</associations>
+</Column>
+<Column name="ENRGRADE" id="A12A43BA-E6D7-C931-C66D-BF252E650DC2">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>ENROLLMENT</sourceObjSchema>
+<sourceObjName>ENRGRADE</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFE7AF91-8D5B-2EB5-67C8-F8AA193D2BE0" name="ENROLLMENTPK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>ENROLLMENTPK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:40 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4158C8AD-0BE0-F360-DEA6-83808AE8B52D"/>
+<colUsage columnID="2B0DDF21-308E-7433-D0B4-1A081594ED0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3B56087-4CC8-B640-6A58-FE6F368B0029" schemaObject="990E6CE4-7A70-2558-8658-252FB1B4B6DA" name="ENROLLMENTPK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>ENROLLMENTPK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4158C8AD-0BE0-F360-DEA6-83808AE8B52D"/>
+<colUsage columnID="2B0DDF21-308E-7433-D0B4-1A081594ED0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9725343E-08BD-4002-B8EA-8C89EEE9BC59" name="OFFERINGFK">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4158C8AD-0BE0-F360-DEA6-83808AE8B52D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7004A9F-6359-3048-BBD7-ECA2C01A3C14" name="STUDENTFK">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B0DDF21-308E-7433-D0B4-1A081594ED0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

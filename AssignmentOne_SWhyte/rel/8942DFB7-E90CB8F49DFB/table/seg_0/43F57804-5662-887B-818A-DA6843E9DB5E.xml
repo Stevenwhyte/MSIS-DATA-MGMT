@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43F57804-5662-887B-818A-DA6843E9DB5E" schemaObject="990E6CE4-7A70-2558-8658-252FB1B4B6DA" name="STUDENT">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>STUDENT</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STDNO" id="2704BAD2-CD02-D70E-902E-B8BE02FDCA2A">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STDNO</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STDFIRSTNAME" id="3C607103-580B-1B8A-6E77-62D1BF502E2C">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STDFIRSTNAME</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STDLASTNAME" id="C6CBCFD9-C3CA-5D65-C202-B153C5A9B50A">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STDLASTNAME</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STDCITY" id="2885AE13-DE54-2C03-C382-CB645F2E972D">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STDCITY</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STDSTATE" id="864A2A8A-9E40-8143-9F58-01390FE833C9">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STDSTATE</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STDZIP" id="5892B15F-5F7B-AFE5-E620-204571970EC8">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STDZIP</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STDMAJOR" id="A1FDE16E-3509-45C9-614A-2C117F7619BB">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STDMAJOR</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STDCLASS" id="44A23837-1141-DA53-2C38-AB7F56C69B92">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STDCLASS</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STDGPA" id="94FC409B-2069-8D37-03FD-6656087F7635">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STDGPA</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5665BDB9-EE8C-1368-AF37-A840106C0121" name="STUDENTPK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>STUDENTPK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2704BAD2-CD02-D70E-902E-B8BE02FDCA2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66B10207-8961-A51D-AD2B-785DA042468F" schemaObject="990E6CE4-7A70-2558-8658-252FB1B4B6DA" name="STUDENTPK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>STUDENTPK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2704BAD2-CD02-D70E-902E-B8BE02FDCA2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

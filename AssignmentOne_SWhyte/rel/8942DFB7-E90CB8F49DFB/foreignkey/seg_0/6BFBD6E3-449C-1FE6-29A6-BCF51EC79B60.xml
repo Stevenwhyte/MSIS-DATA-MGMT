@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6BFBD6E3-449C-1FE6-29A6-BCF51EC79B60" containerWithKeyObject="B03B4075-501B-0450-6363-6F5E817D2E4A" localFKIndex="1BD4DC42-D866-7AF0-46C0-0352351DFDF8" name="FACULTYFK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>FACULTYFK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E67A9A07-4832-AB8A-AD52-27C211F5B596</referredTableID>
+<keyObject>6BF82D1A-BC26-AF9F-C626-ACEA2D5BA52C</keyObject>
+<referredKeyID>6BF82D1A-BC26-AF9F-C626-ACEA2D5BA52C</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

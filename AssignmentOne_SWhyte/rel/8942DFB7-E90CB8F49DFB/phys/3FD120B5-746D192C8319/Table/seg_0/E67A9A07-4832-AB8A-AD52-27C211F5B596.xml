@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FACULTY" directorySegmentName="seg_0" id="E67A9A07-4832-AB8A-AD52-27C211F5B596">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<schemaObject>990E6CE4-7A70-2558-8658-252FB1B4B6DA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1F684CD0-CBC5-DD02-3CB8-6E177F97E041</segment>
+<tableSpace>84DA9745-2778-299D-1A51-B9E2530D0283</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FACSALARY" id="0D5F269F-830B-F8CE-A390-0C1F14162029">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACZIPCODE" id="0E4C29A0-6358-6BF6-D170-968F1BA6BB27">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACDEPT" id="2A0A7A4D-2D74-B45F-1795-F99A4BC865BD">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACSUPERVISOR" id="4853766B-C0F4-A23F-A736-61ABCED367A1">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACLASTNAME" id="5E331D83-B9E9-5986-30D7-16436298A646">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACNO" id="6145D84F-ECFB-4764-8B13-AED138009676">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACSTATE" id="7230598B-C8F9-A92B-FDC2-DC1E2C7903A1">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACCITY" id="74E12E1A-2EC9-5962-D2D0-F845F8A14AC9">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACHIREDATE" id="C3532C9C-9E30-ACC5-32F9-A00BB7C9D733">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACRANK" id="C82064F7-34A6-4B52-B2A9-412126C27F14">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACFIRSTNAME" id="ECEB0F96-102A-8283-8720-19CFD1AA5711">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FACULTYPK" id="7C078BB5-42F4-EBDB-70AC-A76136D728CC">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<schemaObject>990E6CE4-7A70-2558-8658-252FB1B4B6DA</schemaObject>
+<segment>E399DA18-B210-4D69-31BE-74E7395EC59A</segment>
+<tableSpace>84DA9745-2778-299D-1A51-B9E2530D0283</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SUPERVISORFK" id="7C5E8BC2-3CB4-039B-7955-0F61F0614B1F">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FACULTYPK" id="6BF82D1A-BC26-AF9F-C626-ACEA2D5BA52C">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:40 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<segment>E399DA18-B210-4D69-31BE-74E7395EC59A</segment>
+<tableSpace>84DA9745-2778-299D-1A51-B9E2530D0283</tableSpace>
+<existingIndex>7C078BB5-42F4-EBDB-70AC-A76136D728CC</existingIndex>
+<indexSegment>E399DA18-B210-4D69-31BE-74E7395EC59A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

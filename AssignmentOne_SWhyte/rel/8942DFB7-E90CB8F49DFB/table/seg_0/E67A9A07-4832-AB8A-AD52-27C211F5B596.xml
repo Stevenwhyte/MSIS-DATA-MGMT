@@ -1,0 +1,216 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E67A9A07-4832-AB8A-AD52-27C211F5B596" schemaObject="990E6CE4-7A70-2558-8658-252FB1B4B6DA" name="FACULTY">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>FACULTY</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FACNO" id="6145D84F-ECFB-4764-8B13-AED138009676">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACNO</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACFIRSTNAME" id="ECEB0F96-102A-8283-8720-19CFD1AA5711">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACFIRSTNAME</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACLASTNAME" id="5E331D83-B9E9-5986-30D7-16436298A646">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACLASTNAME</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACCITY" id="74E12E1A-2EC9-5962-D2D0-F845F8A14AC9">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACCITY</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACSTATE" id="7230598B-C8F9-A92B-FDC2-DC1E2C7903A1">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACSTATE</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACZIPCODE" id="0E4C29A0-6358-6BF6-D170-968F1BA6BB27">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACZIPCODE</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACRANK" id="C82064F7-34A6-4B52-B2A9-412126C27F14">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACRANK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACHIREDATE" id="C3532C9C-9E30-ACC5-32F9-A00BB7C9D733">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACHIREDATE</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACSALARY" id="0D5F269F-830B-F8CE-A390-0C1F14162029">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACSALARY</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACSUPERVISOR" id="4853766B-C0F4-A23F-A736-61ABCED367A1">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACSUPERVISOR</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF55B447-08AA-EA4A-D293-3C67C941E1C7" referredColumn="6145D84F-ECFB-4764-8B13-AED138009676"/>
+</associations>
+</Column>
+<Column name="FACDEPT" id="2A0A7A4D-2D74-B45F-1795-F99A4BC865BD">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>FACULTY</sourceObjSchema>
+<sourceObjName>FACDEPT</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BF82D1A-BC26-AF9F-C626-ACEA2D5BA52C" name="FACULTYPK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>FACULTYPK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:40 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6145D84F-ECFB-4764-8B13-AED138009676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C078BB5-42F4-EBDB-70AC-A76136D728CC" schemaObject="990E6CE4-7A70-2558-8658-252FB1B4B6DA" name="FACULTYPK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>FACULTYPK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:38 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6145D84F-ECFB-4764-8B13-AED138009676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C5E8BC2-3CB4-039B-7955-0F61F0614B1F" name="SUPERVISORFK">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4853766B-C0F4-A23F-A736-61ABCED367A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

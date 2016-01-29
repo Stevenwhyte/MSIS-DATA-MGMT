@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="MSIS-DATA-MGMT" id="8942DFB7-0D75-71B3-A0F4-E90CB8F49DFB" mainViewID="DEC75770-BFF6-5D4B-B7C6-C5AC95744DD7">
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:37 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>MSIS-DATA-MGMT</connName>
+<connUrl>jdbc:oracle:thin:@10.13.8.108:1521:MSIS537L711</connUrl>
+<connUser>SWhyte</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF55B447-08AA-EA4A-D293-3C67C941E1C7" containerWithKeyObject="E67A9A07-4832-AB8A-AD52-27C211F5B596" localFKIndex="7C5E8BC2-3CB4-039B-7955-0F61F0614B1F" name="SUPERVISORFK">
+<sourceConnName>MSIS-DATA-MGMT</sourceConnName>
+<sourceObjSchema>COMMON</sourceObjSchema>
+<sourceObjName>SUPERVISORFK</sourceObjName>
+<createdBy>steve</createdBy>
+<createdTime>2016-01-28 02:33:41 UTC</createdTime>
+<ownerDesignName>AssignmentOne_SWhyte</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E67A9A07-4832-AB8A-AD52-27C211F5B596</referredTableID>
+<keyObject>6BF82D1A-BC26-AF9F-C626-ACEA2D5BA52C</keyObject>
+<referredKeyID>6BF82D1A-BC26-AF9F-C626-ACEA2D5BA52C</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
