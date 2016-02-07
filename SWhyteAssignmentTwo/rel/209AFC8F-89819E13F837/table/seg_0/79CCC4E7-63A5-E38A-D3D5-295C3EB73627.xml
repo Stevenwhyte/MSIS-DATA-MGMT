@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79CCC4E7-63A5-E38A-D3D5-295C3EB73627" name="OrderTbl">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 04:24:34 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrdNo" id="6B323918-04F6-D099-434C-E7439873C870">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 04:32:31 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrdDate" id="6FA6B238-3151-7C25-FE4C-4EC66A3C3819">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 04:32:31 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustNo" id="F1273E63-9BD5-6129-5348-CFBEAD902393">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 04:32:31 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA961010-8E50-6492-1DD0-A4E6CD32DE1A" referredColumn="0EB501C1-38CE-2BB8-1BC8-458CBC7DD394"/>
+</associations>
+</Column>
+<Column name="EmpNo" id="70599DA4-A105-A943-1A44-5CA1BB65CBE2">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 04:32:31 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<dependOnForeignKeyID>40B63D7D-1B42-6062-912B-4E6B9AE18EF2</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+<associations>
+<colAssociation fkAssociation="D182E545-FA9E-8BF5-F14C-40D3B3BAFE87" referredColumn="7F11FC7F-298D-CB4E-BC59-507E9AB80BB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B1850CA-3652-C685-A0B7-6BD79507C4FD" name="OrderTbl_PK">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 04:32:31 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B323918-04F6-D099-434C-E7439873C870"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BD5E7DB-8BE2-CC08-5656-58A0B8414A69" name="OrderTbl_Employee_FK">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 04:52:56 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70599DA4-A105-A943-1A44-5CA1BB65CBE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7802B4E9-F115-27AC-63F5-98355981C637" name="OrderTbl_Customers_FK">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 04:55:39 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1273E63-9BD5-6129-5348-CFBEAD902393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

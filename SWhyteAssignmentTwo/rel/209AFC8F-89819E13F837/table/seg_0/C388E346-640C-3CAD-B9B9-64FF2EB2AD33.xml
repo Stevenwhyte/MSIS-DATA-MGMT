@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C388E346-640C-3CAD-B9B9-64FF2EB2AD33" name="Customers">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 03:31:56 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustNo" id="0EB501C1-38CE-2BB8-1BC8-458CBC7DD394">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 03:36:24 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustFirstName" id="ED5AFF5C-BB71-901E-96F5-4666DC0C6722">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 03:59:47 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustLastName" id="9BFB14F4-8ACF-9FFA-A184-847D53C2410B">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 03:59:47 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustCity" id="568938BF-8482-0528-4BD5-292263CEEACC">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 03:59:47 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustState" id="6FE3CC8B-3536-0A80-FFA6-A18608E20E10">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 03:59:47 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustZip" id="24014F87-CDF2-8D05-F56E-509058B3DF66">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 04:14:20 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CusBal" id="2B6C05FD-44D9-E5F1-E343-53168E2014FE">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 04:14:20 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="510F6040-9A8D-D1D5-C829-2BA4E66A3811" name="Customers_PK">
+<createdBy>steve</createdBy>
+<createdTime>2016-02-03 03:36:24 UTC</createdTime>
+<ownerDesignName>SWhyteAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB501C1-38CE-2BB8-1BC8-458CBC7DD394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
