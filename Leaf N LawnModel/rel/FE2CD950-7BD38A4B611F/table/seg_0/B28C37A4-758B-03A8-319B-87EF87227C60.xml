@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B28C37A4-758B-03A8-319B-87EF87227C60" name="Service">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:57:04 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ServiceId" id="5F39B5C3-5E30-9D7A-9B64-6ED9158EB2DE">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:59:52 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ServiceType" id="C9759048-570A-210A-6B66-2221652EE427">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:59:52 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PricePerSqFt" id="69F4D088-839E-8700-6989-B696A9A94933">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:59:52 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1763E9F9-9FD9-590D-76BE-BC1FD23DB2F8" name="Service_PK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:59:52 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F39B5C3-5E30-9D7A-9B64-6ED9158EB2DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

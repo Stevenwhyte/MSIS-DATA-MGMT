@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1738140-CE4D-6706-9410-A7FA9BB4A3C4" containerWithKeyObject="8B19B94B-D4A0-547D-A2BC-CC16977A0986" localFKIndex="A22A9515-6900-9257-05B4-BB2DA8746922" name="Appointment_Vehicle_FK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:05:32 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB52FA07-40C1-33B8-2961-03A008806A89</referredTableID>
+<keyObject>B33D4A13-C63F-9B44-15C2-42E4409F105D</keyObject>
+<referredKeyID>B33D4A13-C63F-9B44-15C2-42E4409F105D</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

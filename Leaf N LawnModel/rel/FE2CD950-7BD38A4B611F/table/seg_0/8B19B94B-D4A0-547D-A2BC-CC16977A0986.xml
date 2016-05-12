@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B19B94B-D4A0-547D-A2BC-CC16977A0986" name="Appointment">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:00:01 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AppointmentId" id="6DAB15FE-FC1F-8122-708F-48349D0C3AF0">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:01:25 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="1C029BBC-227C-8706-08A1-B7D264E4C39E">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:01:25 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Time" id="0FBAEF0B-0BAA-8D95-4957-F97026F2A571">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:01:25 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customers_CustomerId" id="F5D51780-58DB-931D-22B7-ACA91349F848">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:04:13 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD5EFDF2-257C-CD5B-5E12-4337285C63F6" referredColumn="C41A9553-7F63-EE13-BEDE-EA9617328BD4"/>
+</associations>
+</Column>
+<Column name="Service_ServiceId" id="27C24E52-3B4D-70E5-3AF6-9A6056ECF452">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:04:48 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A44D80B7-DBA8-FC74-29F3-7BF3D9F593E9" referredColumn="5F39B5C3-5E30-9D7A-9B64-6ED9158EB2DE"/>
+</associations>
+</Column>
+<Column name="Employees_EmployeeId" id="F8E83A09-04BC-0F69-8BDE-A04C13AE27EA">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:04:58 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="789AC16D-5D26-82F1-AA81-EF55F4D65182" referredColumn="BF82171F-18F3-94E6-1E69-1078C88B46B7"/>
+</associations>
+</Column>
+<Column name="Vehicle_VIN" id="A5EC4A8C-ED67-79EA-9472-3E205EB5F4FB">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:05:32 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1738140-CE4D-6706-9410-A7FA9BB4A3C4" referredColumn="CA7E0F7F-9E89-DB8E-DE2E-7C3CC8AA4B53"/>
+</associations>
+</Column>
+<Column name="Equipment_SerialNo" id="1627BF5C-86C7-26F9-2231-3E0B1D773204">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:05:44 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98F05473-B466-3839-3339-9DFBBE2CB9D4" referredColumn="69B1EAED-5EC8-5839-8EBD-E3939D14AF98"/>
+</associations>
+</Column>
+<Column name="Property_PropertyId" id="D1936BF6-EB7D-A5B4-7374-4543C0433488">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:05:53 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A003FB9B-10BB-D209-2134-2C667700F942" referredColumn="F0411C72-D9D6-1C27-3CC4-E09E372D15D7"/>
+</associations>
+</Column>
+<Column name="Property_CustomerId" id="D03810C1-A187-4320-1E23-1AC62294D0F6">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:05:53 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A003FB9B-10BB-D209-2134-2C667700F942" referredColumn="8B074679-6E83-2390-F9F2-2BD88B2ABFC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A7E5C8F-9DC0-F69E-D842-A644913FAE99" name="Appointment_PK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:01:25 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DAB15FE-FC1F-8122-708F-48349D0C3AF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="876A7D35-156A-4F05-5A39-ED238F818F3D" name="Appointment_Customers_FK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:04:13 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5D51780-58DB-931D-22B7-ACA91349F848"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4C60DDE-5C34-D12D-EDBD-BBF99B25A4AE" name="Appointment_Service_FK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:04:48 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27C24E52-3B4D-70E5-3AF6-9A6056ECF452"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="651D646B-54BA-3053-1AEE-799E542C029D" name="Appointment_Employees_FK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:04:58 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8E83A09-04BC-0F69-8BDE-A04C13AE27EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A22A9515-6900-9257-05B4-BB2DA8746922" name="Appointment_Vehicle_FK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:05:32 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5EC4A8C-ED67-79EA-9472-3E205EB5F4FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C724FE2F-9425-37D3-D9E4-722E6EFA9CB9" name="Appointment_Equipment_FK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:05:44 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1627BF5C-86C7-26F9-2231-3E0B1D773204"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B806626-279F-CBB4-314D-1AB2B44BB5D4" name="Appointment_Property_FK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-30 00:05:53 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1936BF6-EB7D-A5B4-7374-4543C0433488"/>
+<colUsage columnID="D03810C1-A187-4320-1E23-1AC62294D0F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0FCEBA1-1DAB-9CAF-FC0F-91ADD4FD6496" name="Customers">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 22:58:21 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustomerId" id="C41A9553-7F63-EE13-BEDE-EA9617328BD4">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FName" id="4E78220F-FB35-4478-DCD9-480525DAB295">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LName" id="D0312218-1472-342B-E6C9-F58A0C6A554B">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SpouseFName" id="11E91F2D-DF08-D5A3-BE9F-4CD864BB0212">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<commentInRDBMS>Optional</commentInRDBMS>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SpouseLName" id="4BAB2A9B-862D-AB24-2982-0A36C62991CA">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<commentInRDBMS>Optional</commentInRDBMS>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Street" id="E2C539A3-9449-C758-1D82-963A55229005">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="B160FD8F-31E6-31A2-BED6-C9C8D1D1346D">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="6762B8F8-EF65-E1F7-BFAE-236409642486">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zip" id="213BFF46-19E4-79E3-9672-69BFA4C3A578">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_home" id="09BC1B4B-FCBD-17C8-BD86-91EDB6AAF6D1">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_work" id="1D824368-4D9D-0DAA-2B4D-1C51A84ACD9A">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<commentInRDBMS>Extention: optional</commentInRDBMS>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B85E2CDD-78ED-174D-39EC-734D573F4A9F" name="Customers_PK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:11:37 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C41A9553-7F63-EE13-BEDE-EA9617328BD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

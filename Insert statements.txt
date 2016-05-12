@@ -1,0 +1,25 @@
+INSERT INTO CUSTOMERS (CUSTOMERID,FNAME,LNAME,SPOUSEFNAME,SPOUSELNAME,STREET,CITY,STATE,ZIP,PHONE_HOME,PHONE_WORK) VALUES ( 1, 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data');
+
+INSERT INTO CUSTOMERS (CUSTOMERID,FNAME,LNAME,SPOUSEFNAME,SPOUSELNAME,STREET,CITY,STATE,ZIP,PHONE_HOME,PHONE_WORK) VALUES ( 1, 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data');
+
+INSERT INTO CUSTOMERS (CUSTOMERID,FNAME,LNAME,SPOUSEFNAME,SPOUSELNAME,STREET,CITY,STATE,ZIP,PHONE_HOME,PHONE_WORK) VALUES ( 1, 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data');
+
+INSERT INTO CUSTOMERS (CUSTOMERID,FNAME,LNAME,SPOUSEFNAME,SPOUSELNAME,STREET,CITY,STATE,ZIP,PHONE_HOME,PHONE_WORK) VALUES ( 1, 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data');
+
+INSERT INTO CUSTOMERS (CUSTOMERID,FNAME,LNAME,SPOUSEFNAME,SPOUSELNAME,STREET,CITY,STATE,ZIP,PHONE_HOME,PHONE_WORK) VALUES ( 1, 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data');
+
+
+
+
+
+INSERT INTO EMPLOYEES (EMPLOYEEID,SSN,FNAME,LNAME,STREET,CITY,STATE,ZIP,PHONE_HOME,PHONE_WORK) VALUES ( 1, 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data');
+
+INSERT INTO EMPLOYEES (EMPLOYEEID,SSN,FNAME,LNAME,STREET,CITY,STATE,ZIP,PHONE_HOME,PHONE_WORK) VALUES ( 1, 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data');
+
+INSERT INTO EMPLOYEES (EMPLOYEEID,SSN,FNAME,LNAME,STREET,CITY,STATE,ZIP,PHONE_HOME,PHONE_WORK) VALUES ( 1, 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data');
+
+INSERT INTO EMPLOYEES (EMPLOYEEID,SSN,FNAME,LNAME,STREET,CITY,STATE,ZIP,PHONE_HOME,PHONE_WORK) VALUES ( 1, 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data');
+
+INSERT INTO EMPLOYEES (EMPLOYEEID,SSN,FNAME,LNAME,STREET,CITY,STATE,ZIP,PHONE_HOME,PHONE_WORK) VALUES ( 1, 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data', 'data');
+
+ 

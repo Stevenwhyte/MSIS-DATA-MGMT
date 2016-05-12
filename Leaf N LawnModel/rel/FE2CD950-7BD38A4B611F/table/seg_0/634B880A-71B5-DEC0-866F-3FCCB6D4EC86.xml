@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="634B880A-71B5-DEC0-866F-3FCCB6D4EC86" name="Property">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:16:14 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PropertyId" id="F0411C72-D9D6-1C27-3CC4-E09E372D15D7">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:30:58 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustomerId" id="8B074679-6E83-2390-F9F2-2BD88B2ABFC2">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:30:58 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF3EBF8F-26F1-8A1B-43A1-87ACAABAE872" referredColumn="C41A9553-7F63-EE13-BEDE-EA9617328BD4"/>
+</associations>
+</Column>
+<Column name="Street" id="2AC401E4-D6A3-5714-C002-EF82EB79BD38">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:25:07 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Property_Street</notNullConstraintName>
+</Column>
+<Column name="City" id="C3072CA6-A09C-6699-7109-CD6061623774">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:25:07 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Property_City</notNullConstraintName>
+</Column>
+<Column name="State" id="E6F579BE-141A-D368-9B4C-F9A02A4F8DFD">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:25:07 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Property_State</notNullConstraintName>
+</Column>
+<Column name="Zip" id="DBF37B20-9A70-7644-9F34-8927A3E4CD75">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:25:07 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Property_Zip</notNullConstraintName>
+</Column>
+<Column name="SquareFt" id="FF806E4B-7C8B-01AB-CA8D-317B51F07B95">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:25:07 UTC</createdTime>
+<commentInRDBMS>Size</commentInRDBMS>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E866A3E-BF52-7277-A8D3-7780C1A133BC" name="Property_PK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:17:37 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0411C72-D9D6-1C27-3CC4-E09E372D15D7"/>
+<colUsage columnID="8B074679-6E83-2390-F9F2-2BD88B2ABFC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32628467-10BA-AD11-11E1-673F81C79FE9" name="Property_Customers_FK">
+<createdBy>steve</createdBy>
+<createdTime>2016-03-29 23:30:58 UTC</createdTime>
+<ownerDesignName>Leaf N LawnModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B074679-6E83-2390-F9F2-2BD88B2ABFC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
